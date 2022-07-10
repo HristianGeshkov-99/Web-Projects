@@ -1,0 +1,19 @@
+<header>
+  <h1>{{ title }}</h1>
+  <!-- <app-button
+    *ngIf="hasRoute('/')"
+    color="{{ showAddTask ? 'red' : 'green' }}"
+    text="{{ showAddTask ? 'Close' : 'Add' }}"
+    (btnClick)="toggleAddTask()"
+  >
+  </app-button> -->
+
+  <mat-button-toggle
+    *ngIf="hasRoute('/')"
+    [value]="buttonValue"
+    (click)="toggleAddTask()"
+    [ngStyle]="{ background: buttonValue ? 'white' : 'red' }"
+  >
+    {{ buttonValue ? "Add" : "Close" }}
+  </mat-button-toggle>
+</header>

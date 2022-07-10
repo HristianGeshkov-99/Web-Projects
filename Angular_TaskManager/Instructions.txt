@@ -1,0 +1,2 @@
+terminal 1 - go to folder -> ng serve
+terminal 2 - go to folder -> npm run server
