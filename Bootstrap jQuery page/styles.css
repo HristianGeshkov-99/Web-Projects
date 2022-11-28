@@ -1,0 +1,98 @@
+body {
+  background-color: #777;
+  background: linear-gradient(to right, #d4d3dd, #777);
+  height: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 64px;
+}
+html {
+  height: 100%;
+}
+
+.tickets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  height: 15rem;
+}
+
+.carousel-caption {
+  position: relative;
+  font-size: 32px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.entry-date {
+  display: flex;
+  flex-direction: column;
+  width: 5.5rem;
+  height: 5.5rem;
+  border: 1px solid #ececec;
+  background-color: #2a2a2a;
+  color: white;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.entry-date__month {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.entry-date__year {
+  font-size: 0.75rem;
+}
+
+.entry-date__day {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  background-color: #777;
+  border-radius: 12px;
+}
+
+.entry p {
+  font-size: 32px;
+  color: #3a3a3a;
+  flex: 1;
+  margin: 0 1rem;
+  color: white;
+}
+.entry span {
+  font-size: 24px;
+}
+
+.title {
+  background-color: #212529;
+  color: white;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+
+.content {
+  background-color: #212529;
+  color: white;
+  border-radius: 12px;
+  padding: 10px;
+  display: none;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 4em;
+}
